@@ -1,0 +1,31 @@
+/*======================================
+Theme Name: 4 Space Mining
+Description: Child theme for 4 Space Mining
+Version: 1.0
+Author: Rally Digital
+Author URI: https://rally.digital/
+Template: Divi
+======================================*/
+
+
+.heroprice { display: block; margin-bottom: 10px !important; text-align: center; }
+
+.in-stock { margin: 20px 0; font-weight: bold; }
+.available-on-backorder { font-weight: bold; color: red !important; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; margin: 20px 0; }
+
+ul.genlist { margin: 10px 0 0 25px; }
+ul.genlist li { list-style: none; }
+ul.genlist li:before { font-family: 'ETMODULES'; content: '\4e'; margin-left: -20px; margin-right: 10px; color: #FFB703 !important; } 
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { padding: 25px !important; box-shadow: none !important;  }
+
+.helpdesk-phone:before { font-family: 'ETMODULES'; content: '\e090'; color: #FFB703 !important; position: absolute; left: 27%; }
+.helpdesk-email:before  { font-family: 'ETMODULES'; content: '\e076'; color: #FFB703 !important; position: absolute; left: 11%; }
+
+@media only screen and (max-width: 479px) {
+	.et_pb_gutters1 .et_pb_column .et_pb_blog_grid .column.size-1of1 .et_pb_post, .et_pb_gutters1 .et_pb_column .et_pb_grid_item, .et_pb_gutters1 .et_pb_column .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters1 .et_pb_column .et_pb_widget, .et_pb_gutters1.et_pb_row .et_pb_column .et_pb_blog_grid .column.size-1of1 .et_pb_post, .et_pb_gutters1.et_pb_row .et_pb_column .et_pb_grid_item, .et_pb_gutters1.et_pb_row .et_pb_column .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters1.et_pb_row .et_pb_column .et_pb_widget { width: 100% !important; }
+	
+	.helpdesk-phone:before { left: 6%; }
+    .helpdesk-email:before  { left: 4%; }
+
+}

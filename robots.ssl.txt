@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://fourspacemining.com/wp-sitemap.xml
+Sitemap: https://fourspacesmining.github.io/5467823_92.xml
